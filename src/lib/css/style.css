@@ -1,0 +1,64 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+}
+
+
+/* Color palette */
+
+:root {
+    --primary-color: #137EF9;
+    --success-color: #75D26E;
+    --info-color: #6FC6F7;
+    --warning-color: #F4982D;
+    --danger-color: #EE5138;
+    --closed-color: #F0ECE9;
+}
+
+#main-container{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+}
+.column
+{
+    float: left;
+    width: 20%;
+}
+.btn-toolbar {
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+.loaderCenter{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -50%;
+  }
+
+.user-avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px soliD #333;
+    grid-area: user-avatar;
+}
+
+.user-top-image img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border: 0px soliD #333;
+}
