@@ -1,1 +1,1 @@
-# react-adminlte-js
+# bct-react-admin
